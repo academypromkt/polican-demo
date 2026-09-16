@@ -6,7 +6,7 @@
 
 /* El modo de juego ocupa la pantalla móvil y conserva todos los controles. */
 button{-webkit-tap-highlight-color:transparent}.touch{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}button:active{transform:translateY(1px);filter:brightness(1.2)}
-@media(max-width:900px) and (pointer:coarse), (max-width:700px){
+@media(max-width:950px){
  body.playing{overflow:hidden;overscroll-behavior:none}body.playing main{height:100dvh;max-height:100dvh;padding:max(6px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(6px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));display:flex;flex-direction:column;gap:5px}
  body.playing header,body.playing details,body.playing footer,body.playing .hint{display:none}
  body.playing .hud{flex:none;margin:0;gap:5px}body.playing .stat{padding:5px 8px}body.playing .stat small{font-size:10px;letter-spacing:.3px}body.playing .stat strong{font-size:13px}
